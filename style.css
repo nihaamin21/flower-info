@@ -93,6 +93,7 @@ body{
 .container-1 .container-2{
     display: flex;
     flex-direction: column;
+    padding: 15px;
 }
 
 .main-div{
@@ -106,10 +107,15 @@ body{
 
 .container-1{
     width: 60%;
+    border: 1px solid #9a9da0;
+    margin-left: 11px;
 }
 
 .container-2{
     width: 40%;
+    border: 1px solid #9a9da0;
+    margin-left: 11px;
+    height: 512px;
 }
 
 .container{
@@ -117,5 +123,12 @@ body{
 }
 #main-heading{
     width: 100%;
+}
+#para-2 {
+    font-size: 16px;
+}
+
+#para-1 {
+    font-size: 16px;
 }
 /* Write all your CSS here! */
